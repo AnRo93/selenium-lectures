@@ -21,7 +21,7 @@ public class SongSearchOnSpotifyWeb {
 
         driver.findElement(By.xpath("//button[@data-testid='login-button']")).click();
 
-        Thread.sleep(1000);
+        Thread.sleep(2000);
 
         driver.findElement(By.xpath("//input[@data-testid='login-username']")).sendKeys(
                 "sinivo4633@molyg.com", Keys.TAB,
